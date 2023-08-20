@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-20T12:49:50.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8229505000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mock.stepdefinition.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validating career resume upload function with valid inputs",
+        "description": "",
+        "id": "verifying-career-functions;validating-career-resume-upload-function-with-valid-inputs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 258410200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mock.stepdefinition.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launches the application",
+            "match": {
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Launches_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4287291500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigates to job opportunity via career header",
+            "match": {
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Navigates_to_job_opportunity_via_career_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157206000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Selects the job priority in the job filter",
+            "match": {
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Selects_the_job_priority_in_the_job_filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78334500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Prints the listed jobs",
+            "match": {
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Prints_the_listed_jobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5056334500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Selects the software tester job",
+            "match": {
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Selects_the_software_tester_job()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4636342300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Enters in the form \"karthik\",\"karthik\",\"karthik@gmail.com\",\"8554174421\",\"25-august-2023\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthik\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"karthik\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"karthik@gmail.com\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"8554174421\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"25-august-2023\"",
+                  "offset": 77
+                }
+              ],
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Enters_in_the_form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 409852800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Validates the success message",
+            "match": {
+              "location": "mock.stepdefinition.KervStepDefinitions.user_Validates_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC-1"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying career functions",
+    "description": "",
+    "id": "verifying-career-functions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/KervMock.feature",
+    "tags": [
+      {
+        "name": "@TC-1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
