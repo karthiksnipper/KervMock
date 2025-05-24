@@ -93,4 +93,9 @@ public void userValidatingTheSuccessMsg() throws IOException{
 	assertTrue("validating the success message", text.contains("Thank you for your"));
 	
 }
+
+public void jason(){
+//timer jason check
+} 
+
 }
