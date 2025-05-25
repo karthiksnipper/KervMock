@@ -77,6 +77,10 @@ public void	userEnterTheForm(String firstName, String lastName, String emailId, 
 	clickByJs(sumbit);
 			
 }
+public void john(){
+//crish logic
+}
+
 public void userValidatingTheSuccessMsg() throws IOException{
 	explicitWait(10).until(ExpectedConditions.visibilityOf(successMsg));
 	URL url = new URL(driver.getCurrentUrl());
